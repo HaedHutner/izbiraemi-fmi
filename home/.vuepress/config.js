@@ -2,19 +2,32 @@ module.exports = {
     title: "Избираеми ФМИ",
     description: "Избираемите дисциплини във ФМИ, Пловдивски Университет",
     themeConfig: {
+        repo: "HaedHutner/izbiraemi-fmi",
         nav: [
-            {
-                text: 'Home', link: '/'
-            }
         ],
         sidebar: [
             {
-                title: 'Категории',
+                title: "Програмиране",
                 children: [
-                    '/categories/mathematics/',
-                    '/categories/programming/',
-                    '/categories/business/',
-                    '/categories/other/'
+                    "/categories/programming/grafichni-standarti",
+                    "/categories/programming/mnogonishkovo-programirane"
+                ]
+            },
+            {
+                title: "Математика",
+                children: [
+                ]
+            },
+            {
+                title: "Бизнес",
+                children: [
+                    "/categories/business/predpriemachestvo"
+                ]
+            },
+            {
+                title: "Други",
+                children: [
+                    "/categories/other/sigurnost-kiberprostranstvo"
                 ]
             }
         ]
